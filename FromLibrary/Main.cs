@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FromLibrary.Views.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -36,6 +37,16 @@ namespace FromLibrary
         {
             FrmLoan win = new FrmLoan();
             features.OpenNewWindow(frmLoan, panelContent);
+        }
+
+        private void miMembers_Click(object sender, EventArgs e)
+        {
+            FrmMembers win = new FrmMembers();
+            win.TopLevel = false;
+            win.FormBorderStyle = FormBorderStyle.None;
+            win.Dock = DockStyle.Fill;
+            panelContent.Controls.Add(win);
+            win.Show();
         }
     }
 }
