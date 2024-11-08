@@ -42,11 +42,7 @@ namespace FromLibrary
         private void miMembers_Click(object sender, EventArgs e)
         {
             FrmMembers win = new FrmMembers();
-            win.TopLevel = false;
-            win.FormBorderStyle = FormBorderStyle.None;
-            win.Dock = DockStyle.Fill;
-            panelContent.Controls.Add(win);
-            win.Show();
+            features.OpenNewWindow(win, panelContent);
         }
     }
 }
