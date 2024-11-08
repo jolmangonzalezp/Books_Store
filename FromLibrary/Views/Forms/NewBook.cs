@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FromLibrary
+namespace FromLibrary.Views.Forms
 {
-    public partial class MainLoan : Form
+    public partial class NewBook : Form
     {
-        public MainLoan()
+        public NewBook()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -33,6 +33,7 @@
             this.miBooks = new System.Windows.Forms.ToolStripMenuItem();
             this.miAuthor = new System.Windows.Forms.ToolStripMenuItem();
             this.miMembers = new System.Windows.Forms.ToolStripMenuItem();
+            this.panelContent = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,14 +79,22 @@
             this.miMembers.Size = new System.Drawing.Size(89, 23);
             this.miMembers.Text = "Members";
             // 
-            // Form1
+            // panelContent
+            // 
+            this.panelContent.Location = new System.Drawing.Point(0, 30);
+            this.panelContent.Name = "panelContent";
+            this.panelContent.Size = new System.Drawing.Size(800, 515);
+            this.panelContent.TabIndex = 1;
+            // 
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 546);
+            this.Controls.Add(this.panelContent);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "Main";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
@@ -102,6 +111,7 @@
         private System.Windows.Forms.ToolStripMenuItem miBooks;
         private System.Windows.Forms.ToolStripMenuItem miAuthor;
         private System.Windows.Forms.ToolStripMenuItem miMembers;
+        private System.Windows.Forms.Panel panelContent;
     }
 }
 

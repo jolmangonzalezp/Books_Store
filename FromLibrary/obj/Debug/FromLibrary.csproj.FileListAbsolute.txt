@@ -42,3 +42,5 @@ C:\Users\Jolman\source\repos\Library\FromLibrary\obj\Debug\FromLibr.2B999D03.Up2
 C:\Users\Jolman\source\repos\Library\FromLibrary\obj\Debug\FromLibrary.exe
 C:\Users\Jolman\source\repos\Library\FromLibrary\obj\Debug\FromLibrary.pdb
 C:\Users\Jolman\source\repos\Library\FromLibrary\obj\Debug\FromLibrary.Main.resources
+C:\Users\Jolman\source\repos\Library\FromLibrary\obj\Debug\FromLibrary.FrmLoan.resources
+C:\Users\Jolman\source\repos\Library\FromLibrary\obj\Debug\FromLibrary.Views.Forms.NewBook.resources

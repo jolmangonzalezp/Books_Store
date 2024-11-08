@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -26,8 +27,12 @@ namespace FromLibrary
 
         private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MainLoan win = new MainLoan();
-            win.ShowDialog(this);
+            FrmLoan win = new FrmLoan();
+            win.TopLevel = false;
+            win.FormBorderStyle = FormBorderStyle.None;
+            win.Dock = DockStyle.Fill;
+            panelContent.Controls.Add(win);
+            win.Show();
         }
     }
 }
