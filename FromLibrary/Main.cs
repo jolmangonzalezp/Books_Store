@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FromLibrary.Views.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,6 +29,16 @@ namespace FromLibrary
         private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmLoan win = new FrmLoan();
+            win.TopLevel = false;
+            win.FormBorderStyle = FormBorderStyle.None;
+            win.Dock = DockStyle.Fill;
+            panelContent.Controls.Add(win);
+            win.Show();
+        }
+
+        private void miMembers_Click(object sender, EventArgs e)
+        {
+            FrmMembers win = new FrmMembers();
             win.TopLevel = false;
             win.FormBorderStyle = FormBorderStyle.None;
             win.Dock = DockStyle.Fill;

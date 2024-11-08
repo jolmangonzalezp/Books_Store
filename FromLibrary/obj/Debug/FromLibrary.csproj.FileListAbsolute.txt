@@ -93,3 +93,5 @@ C:\Users\Jolman\source\repos\Library\FromLibrary\obj\Debug\FromLibrary.Views.For
 >>>>>>> b46e526176f2b094b6ef4d83db53dc6519291b77
 C:\Users\HP\OneDrive\Documentos\GitHub\Books_Store\FromLibrary\obj\Debug\FromLibrary.Views.Forms.NewBook.resources
 C:\Users\HP\OneDrive\Documentos\GitHub\Books_Store\FromLibrary\obj\Debug\FromLibrary.FrmLoan.resources
+C:\Users\HP\OneDrive\Documentos\GitHub\Books_Store\FromLibrary\obj\Debug\FromLibrary.Views.Forms.FrmMembers.resources
+C:\Users\HP\OneDrive\Documentos\GitHub\Books_Store\FromLibrary\obj\Debug\FromLibrary.Views.Forms.NewMember.resources

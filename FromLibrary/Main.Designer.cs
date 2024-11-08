@@ -78,6 +78,7 @@
             this.miMembers.Name = "miMembers";
             this.miMembers.Size = new System.Drawing.Size(89, 23);
             this.miMembers.Text = "Members";
+            this.miMembers.Click += new System.EventHandler(this.miMembers_Click);
             // 
             // panelContent
             // 

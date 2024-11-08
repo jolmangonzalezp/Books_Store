@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace FromLibrary.Views.Forms
 {
-    public partial class Formmienbros : Form
+    public partial class FrmMembers : Form
     {
-        public Formmienbros()
+        public FrmMembers()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            NewMember newMember = new NewMember();
+            newMember.ShowDialog();
         }
     }
 }
