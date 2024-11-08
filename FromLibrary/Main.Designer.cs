@@ -64,6 +64,7 @@
             this.miBooks.Name = "miBooks";
             this.miBooks.Size = new System.Drawing.Size(66, 23);
             this.miBooks.Text = "Books";
+            this.miBooks.Click += new System.EventHandler(this.miBooks_Click);
             // 
             // miAuthor
             // 
@@ -71,6 +72,7 @@
             this.miAuthor.Name = "miAuthor";
             this.miAuthor.Size = new System.Drawing.Size(68, 23);
             this.miAuthor.Text = "Author";
+            this.miAuthor.Click += new System.EventHandler(this.miAuthor_Click);
             // 
             // miMembers
             // 

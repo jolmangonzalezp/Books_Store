@@ -1,6 +1,6 @@
 .vs
-FrmLibrary/bin/*
-FrmLibrary/obj/*
+FrmLibrary/bin/
+FrmLibrary/obj/
 FromLibrary/obj/Debug/FromLibrary.csproj.CoreCompileInputs.cache
 FromLibrary/obj/Debug/FromLibrary.csproj.CoreCompileInputs.cache
 FromLibrary/obj/Debug/FromLibrary.csproj.GenerateResource.cache
