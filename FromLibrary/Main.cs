@@ -14,10 +14,17 @@ namespace FromLibrary
     public partial class Main : Form
     {
         BusinessLayer.Business logic;
+        Features features;
+        FrmLoan frmLoan;
         public Main()
         {
             InitializeComponent();
             logic = new BusinessLayer.Business();
+            features = new Features();
+            frmLoan = new FrmLoan();
+            features.OpenNewWindow(frmLoan, panelContent);
+            miLoan.BackColor = Color.Gray;
+            miLoan.ForeColor = Color.White;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -28,11 +35,7 @@ namespace FromLibrary
         private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmLoan win = new FrmLoan();
-            win.TopLevel = false;
-            win.FormBorderStyle = FormBorderStyle.None;
-            win.Dock = DockStyle.Fill;
-            panelContent.Controls.Add(win);
-            win.Show();
+            features.OpenNewWindow(frmLoan, panelContent);
         }
     }
 }
